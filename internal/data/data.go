@@ -1,9 +1,9 @@
 package data
 
 import (
-	"personcrud/internal/conf"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
+	"github.com/jgilliescommure/go/internal/conf"
 )
 
 // ProviderSet is data providers.

@@ -8,11 +8,11 @@ package main
 import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
-	"personcrud/internal/biz"
-	"personcrud/internal/conf"
-	"personcrud/internal/data"
-	"personcrud/internal/server"
-	"personcrud/internal/service"
+	"github.com/jgilliescommure/go/internal/biz"
+	"github.com/jgilliescommure/go/internal/conf"
+	"github.com/jgilliescommure/go/internal/data"
+	"github.com/jgilliescommure/go/internal/server"
+	"github.com/jgilliescommure/go/internal/service"
 )
 
 // Injectors from wire.go:

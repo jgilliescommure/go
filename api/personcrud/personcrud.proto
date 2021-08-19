@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package api.personcrud;
 
-option go_package = "personcrud/api/personcrud;personcrud";
+option go_package = "github.com/jgilliescommure/go/api/personcrud;personcrud";
 option java_multiple_files = true;
 option java_package = "api.personcrud";
 
