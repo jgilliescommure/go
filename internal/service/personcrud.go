@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	pb "personcrud/api/personcrud"
+	pb "github.com/jgilliescommure/go/api/personcrud"
 )
 
 type PersoncrudService struct {

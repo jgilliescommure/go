@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	v1 "personcrud/api/helloworld/v1"
-	"personcrud/internal/biz"
 	"github.com/go-kratos/kratos/v2/log"
+	v1 "github.com/jgilliescommure/go/api/helloworld/v1"
+	"github.com/jgilliescommure/go/internal/biz"
 )
 
 // GreeterService is a greeter service.

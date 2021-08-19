@@ -1,4 +1,4 @@
-module personcrud
+module github.com/jgilliescommure/go
 
 go 1.15
 
