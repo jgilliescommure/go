@@ -1,0 +1,57 @@
+syntax = "proto3";
+
+package api.personcrud;
+
+option go_package = "personcrud/api/personcrud;personcrud";
+option java_multiple_files = true;
+option java_package = "api.personcrud";
+
+service Personcrud {
+    rpc CreatePerson (CreatePersonRequest) returns (CreatePersonReply);
+    rpc UpdatePerson (UpdatePersonRequest) returns (PersonReply);
+    rpc GetPerson (GetPersonRequest) returns (PersonReply);
+    rpc ListPersons (ListPersonRequest) returns (ListPersonReply);
+}
+
+message CreatePersonRequest {
+    int32 id = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string email = 4;
+}
+
+message CreatePersonReply {
+    int32 id = 1;
+}
+
+message UpdatePersonRequest {
+    int32 id = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string email = 4;
+}
+
+message GetPersonRequest {
+    int32 id = 1;
+}
+
+message PersonReply {
+    int32 id = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string email = 4;
+}
+
+message ListPersonRequest {
+    string lastName = 3;
+}
+
+message ListPersonReply {
+    repeated PersonReply persons = 1;
+}
+
+
+
+
+
+
